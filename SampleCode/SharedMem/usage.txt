@@ -1,0 +1,5 @@
+1. Compile the codes, linking using -lrt and -pthread.
+   Suppose output files are ./sender.out and ./bouncer.out
+2. Execute 
+   ./bouncer.out /sharedmemname
+   ./sender.out /sharedmemname texttoconvert
